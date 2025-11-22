@@ -92,7 +92,7 @@ O teste automatiza o caso CT01 (login com sucesso) utilizando Selenium 4 e Micro
     finally:
         driver.quit()
 
-test_login_sucesso()
+    test_login_sucesso()
 
 📦 4. Instalação
 1) Instalar dependências
