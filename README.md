@@ -49,12 +49,14 @@ Ação	Resultado Esperado
 
 O teste automatiza o caso CT01 (login com sucesso) utilizando Selenium 4 e Microsoft Edge.
 
-✔️ Arquivo: test_login.py
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-import time
+✔️ Arquivo:
 
-def test_login_sucesso():
+      test_login.py
+      from selenium import webdriver
+      from selenium.webdriver.common.by import By
+      import time
+
+    def test_login_sucesso():
 
     driver = webdriver.Edge()
 
